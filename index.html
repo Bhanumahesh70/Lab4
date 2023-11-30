@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Using fonrawesome for icons-->
+  <script src="https://kit.fontawesome.com/9a6838f10f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Sunrise Sunset Dashboard</title>
+</head>
+<body>
+  <!-- Background image container -->
+  <div class="back-img">
+    <!--User input container-->
+    <div class="container">
+      <h1>Sunrise Sunset Dashboard</h1>
+      <div id="search-container">
+        <label for="location">Search Location:</label>
+        <input type="text" id="location" placeholder="Enter location">
+        <button id="search-btn">Search</button>
+      </div>
+      <button id="geolocation-btn">Use Current Location</button>
+      <div id="result-container">
+        <!-- Results will be displayed here -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Welcome container -->
+  <div class="welcome-container">
+    <h1>Welcome!</h1>
+    <p class="instruction">Follow these instructions to get started:</p>
+    <ol class="instruction-list">
+      <li> Enter the city name to know Sunrise Sunset details</li>
+      <li>Click on use current location to know the current location Sunrise Sunset details</li>
+    </ol>
+  </div>
+  <div class="footer">
+    <p>Powered by <a href="https://sunrisesunset.io" target="_blank" rel="noopener noreferrer">SunriseSunset.io</a></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
